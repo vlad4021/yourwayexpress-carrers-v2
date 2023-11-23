@@ -22,7 +22,7 @@ JOBS = [
 def hello_jovian():
     return render_template('home.html',
                            jobs=JOBS,
-                           Company_Name='Jovian')
+                           Company_Name='Yourway Express')
 
 
 @app.route("/jobs")
